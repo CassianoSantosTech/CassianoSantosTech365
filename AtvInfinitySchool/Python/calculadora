@@ -1,0 +1,21 @@
+##entradas
+numero1 = int(input("Digite um número inteiro e positivo: "))
+numero2 = int(input("Digite outro número inteiro e positivo: "))
+operacao = int(input("Digite o valor atribuido a operação desejada! Sendo:\n 1 = soma\n 2 = subtração\n 3 = multiplicação\n 4 = divisão:"))
+
+##processamento e saidas
+if operacao == 1:
+    soma = numero1 + numero2
+    print(f"Sua soma deu {soma}!")
+elif operacao == 2:
+    subtracao = numero1 - numero2
+    print(f"Sua subtração deu {subtracao}!")
+elif operacao == 3:
+    
+    multip = numero1*numero2
+    print(f"Sua multiplicação deu {multip}")
+elif operacao == 4:
+    div = numero1/numero2
+    print(f"Sua divisão deu {div}")
+else:
+    print("Operação inválida")
